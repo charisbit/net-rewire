@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12345678901234567890123456789012 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12345678901234567890123456789013 /* AppDelegate.m */; };
+		12345678901234567890123456789014 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12345678901234567890123456789015 /* main.m */; };
+		12345678901234567890123456789016 /* PacketTunnelProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 12345678901234567890123456789017 /* PacketTunnelProvider.m */; };
+		12345678901234567890123456789018 /* pktparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 12345678901234567890123456789019 /* pktparse.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1234567890123456789012345678901A /* NetRewireApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetRewireApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1234567890123456789012345678901B /* NetRewirePacketTunnel.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NetRewirePacketTunnel.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1234567890123456789012345678901C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1234567890123456789012345678901D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1234567890123456789012345678901E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1234567890123456789012345678901F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12345678901234567890123456789020 /* PacketTunnelProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacketTunnelProvider.h; sourceTree = "<group>"; };
+		12345678901234567890123456789021 /* PacketTunnelProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacketTunnelProvider.m; sourceTree = "<group>"; };
+		12345678901234567890123456789022 /* pktparse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pktparse.h; sourceTree = "<group>"; };
+		12345678901234567890123456789023 /* pktparse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pktparse.c; sourceTree = "<group>"; };
+		12345678901234567890123456789024 /* NetRewirePacketTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetRewirePacketTunnel.entitlements; sourceTree = "<group>"; };
+		12345678901234567890123456789025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12345678901234567890123456789026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12345678901234567890123456789027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12345678901234567890123456789028 = {
+			isa = PBXGroup;
+			children = (
+				12345678901234567890123456789029 /* NetRewireApp */,
+				1234567890123456789012345678902A /* NetRewirePacketTunnel */,
+				1234567890123456789012345678902B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12345678901234567890123456789029 /* NetRewireApp */ = {
+			isa = PBXGroup;
+			children = (
+				1234567890123456789012345678901C /* AppDelegate.h */,
+				1234567890123456789012345678901D /* AppDelegate.m */,
+				1234567890123456789012345678901F /* main.m */,
+				1234567890123456789012345678901E /* Info.plist */,
+			);
+			path = NetRewireApp;
+			sourceTree = "<group>";
+		};
+		1234567890123456789012345678902A /* NetRewirePacketTunnel */ = {
+			isa = PBXGroup;
+			children = (
+				12345678901234567890123456789020 /* PacketTunnelProvider.h */,
+				12345678901234567890123456789021 /* PacketTunnelProvider.m */,
+				12345678901234567890123456789022 /* pktparse.h */,
+				12345678901234567890123456789023 /* pktparse.c */,
+				12345678901234567890123456789024 /* NetRewirePacketTunnel.entitlements */,
+				12345678901234567890123456789025 /* Info.plist */,
+			);
+			path = NetRewirePacketTunnel;
+			sourceTree = "<group>";
+		};
+		1234567890123456789012345678902B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1234567890123456789012345678901A /* NetRewireApp.app */,
+				1234567890123456789012345678901B /* NetRewirePacketTunnel.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1234567890123456789012345678902C /* NetRewireApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1234567890123456789012345678902D /* Build configuration list for PBXNativeTarget "NetRewireApp" */;
+			buildPhases = (
+				1234567890123456789012345678902E /* Sources */,
+				12345678901234567890123456789026 /* Frameworks */,
+				1234567890123456789012345678902F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12345678901234567890123456789030 /* PBXTargetDependency */,
+			);
+			name = NetRewireApp;
+			productName = NetRewireApp;
+			productReference = 1234567890123456789012345678901A /* NetRewireApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12345678901234567890123456789031 /* NetRewirePacketTunnel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12345678901234567890123456789032 /* Build configuration list for PBXNativeTarget "NetRewirePacketTunnel" */;
+			buildPhases = (
+				12345678901234567890123456789033 /* Sources */,
+				12345678901234567890123456789027 /* Frameworks */,
+				12345678901234567890123456789034 /* Resources */,
+			);
+			buildRules = (
+			);
+			name = NetRewirePacketTunnel;
+			productName = NetRewirePacketTunnel;
+			productReference = 1234567890123456789012345678901B /* NetRewirePacketTunnel.appex */;
+			productType = "com.apple.product-type.network-extension.packet-tunnel";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12345678901234567890123456789035 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "Net-Rewire";
+				TargetAttributes = {
+					1234567890123456789012345678902C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					12345678901234567890123456789031 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 12345678901234567890123456789036 /* Build configuration list for PBXProject "NetRewireApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12345678901234567890123456789028;
+			productRefGroup = 1234567890123456789012345678902B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1234567890123456789012345678902C /* NetRewireApp */,
+				12345678901234567890123456789031 /* NetRewirePacketTunnel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1234567890123456789012345678902F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12345678901234567890123456789034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1234567890123456789012345678902E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12345678901234567890123456789012 /* AppDelegate.m in Sources */,
+				12345678901234567890123456789014 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12345678901234567890123456789033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12345678901234567890123456789016 /* PacketTunnelProvider.m in Sources */,
+				12345678901234567890123456789018 /* pktparse.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12345678901234567890123456789030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12345678901234567890123456789031 /* NetRewirePacketTunnel */;
+			targetProxy = 12345678901234567890123456789037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12345678901234567890123456789038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		12345678901234567890123456789039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1234567890123456789012345678903A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "NetRewireApp/NetRewireApp.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetRewireApp/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netrewire.NetRewireApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1234567890123456789012345678903B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "NetRewireApp/NetRewireApp.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetRewireApp/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netrewire.NetRewireApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1234567890123456789012345678903C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NetRewirePacketTunnel/NetRewirePacketTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetRewirePacketTunnel/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netrewire.NetRewirePacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1234567890123456789012345678903D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NetRewirePacketTunnel/NetRewirePacketTunnel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NetRewirePacketTunnel/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.netrewire.NetRewirePacketTunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1234567890123456789012345678902D /* Build configuration list for PBXNativeTarget "NetRewireApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1234567890123456789012345678903A /* Debug */,
+				1234567890123456789012345678903B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12345678901234567890123456789032 /* Build configuration list for PBXNativeTarget "NetRewirePacketTunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1234567890123456789012345678903C /* Debug */,
+				1234567890123456789012345678903D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12345678901234567890123456789036 /* Build configuration list for PBXProject "NetRewireApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12345678901234567890123456789038 /* Debug */,
+				12345678901234567890123456789039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12345678901234567890123456789035 /* Project object */;
+}
